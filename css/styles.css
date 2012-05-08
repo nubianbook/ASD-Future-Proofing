@@ -20,6 +20,11 @@ Feb.23,2012
    		 padding: 10px;		   
    }
    
+   div.demo {
+	padding:12px;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+   
    #contain {
    			 margin: 0;
    			 padding: 0;
@@ -27,17 +32,30 @@ Feb.23,2012
    }
    #front_wrap {
    				border: 1px solid blue;
-   				/*background-color: #d4e1f2;*/
+   				
    }
       
-   h1 {	
-   	    color: #3d1efb;
-   	/*  border-top: 2px  solid red;
-	   border-bottom: 2px  solid red;*/
-	   /*padding: 10px 0 10px 10px;*/
-	   background: #dce5ea; 
-	   font-size: 24px;                     
-	   text-align: center;		  
+	h1 {
+		
+		margin-top: -4px;
+		margin-bottom: 1px;
+		background: none;                    
+		text-align: left;		  
+   }
+   
+   p#brand {
+   			margin-top: -49px;
+   			margin-bottom: 8px;
+   			text-align: center;   		     			
+   }
+   
+   #required {
+   			  font-size: 13px;
+   			  font-weight: 600;
+   }
+   
+   #genre {
+   		   font-size: 16px;
    }
    
    #pg1 {
@@ -46,13 +64,11 @@ Feb.23,2012
    }
    
    #pg1_link {
-   			  display: inline;
    			  font-size: 25px;
-   			  font-weight: bold;
-   			  font-color: red; 
+   			  font-weight: bold; 
    		      text-align: center;
    		      margin-top: -70px;
-   		      margin-left: 90px;
+   		      margin-left: 130px;
    }
    
    #btn {
@@ -75,6 +91,17 @@ Feb.23,2012
   #errors {
   			font-size: 14px;
   			color: red;
+  }
+  
+  label.error {
+  				display: block;
+  				margin: 10px 0;
+  				margin-left: 10px;
+  				color: #cc0000;
+  }
+  
+  #errorsLink {
+  				display: none;
   }
      
    p {
@@ -181,7 +208,20 @@ Feb.23,2012
   
  #boxesCk {
  			font-size: 13px;
- }        
+ } 
+ 
+ #button {
+ 			display: inline;
+ }
+ 
+ 
+ #submit {	margin-right: 80px;
+ 			color: blue;
+ 			padding: 10px;
+ 			background: #7098bf;
+ }       
      
-   
+ #reset { margin-left: 2px;
+ 		  background: #7098bf;
+ } 
    

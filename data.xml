@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item>
+		<category>Drama</category>
+		<title>Lost in New York</title>
+		<media>DVD</media>
+		<price>19.95<price>
+	</item>
+</items>
+<items2>
+	<item2>
+		<category>Horror</category>
+		<title>Scary Hollows</title>
+		<media>DVD</media>
+		<price>24.95<price>
+	</item2>
+</items2>
+<items3>
+	<item3>
+		<category>SiFi</category>
+		<title>Alien Forces</title>
+		<media>DVD/Tape</media>
+		<price>12.95<price>
+	</item3>
+</items3>
+<items>
+	<item>
+		<category>Romance</category>
+		<title>Forget Me Not</title>
+		<media>DVD/Blue Ray</media>
+		<price>30.95<price>
+	</item>
+</items>	
