@@ -5,7 +5,7 @@
 //Feb.23,2012
 
 
-var json = {
+var item = {
 	"archive1": {
 		"groups": ["Category: ", "Comedy"],
 		"atitle": ["Title: ", "The Good Ship Lollipop"],
