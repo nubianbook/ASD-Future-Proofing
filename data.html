@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hello World!</title>
+		<link href="css/StyleSheet.css" rel="stylesheet" type="text/css" /> 
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>Hello World</h1>
+			<p>This is an html testing document!</p>
+		</div>
+			
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	
+	<script>
+		$(document).ready(function()
+      {
+        $.get('data.xml', function(d){
+        $('body').append('<h1> Recommended Movies to watch </h1>');
+        $('body').append('<dl />');
+
+        $(d).find('movie').each(function(){
+
+            var $movie = $(this); 
+            var title = $movie.attr("title");
+            var description = $movie.find('description').text();
+            var imageurl = $movie.attr('imageurl');
+
+            var html = '<dt> <img class="bookImage" alt="" src="' + imageurl + '" /> </dt>';
+            html += '<dd> <span class="loadingPic" alt="Loading" />';
+            html += '<p class="title">' + title + '</p>';
+            html += '<p> ' + description + '</p>' ;
+            html += '</dd>';
+
+            $('dl').append($(html));
+            
+            $('.loadingPic').fadeOut(1400);
+        });
+    });
+});				
+		</script>
+
+	</body>
+</html>

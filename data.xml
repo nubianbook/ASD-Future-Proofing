@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<items>
-	<item>
-		<category>Drama</category>
-		<title>Lost in New York</title>
-		<media>DVD</media>
-		<price>19.95<price>
-	</item>
-</items>
-<items2>
-	<item2>
-		<category>Horror</category>
-		<title>Scary Hollows</title>
-		<media>DVD</media>
-		<price>24.95<price>
-	</item2>
-</items2>
-<items3>
-	<item3>
-		<category>SiFi</category>
-		<title>Alien Forces</title>
-		<media>DVD/Tape</media>
-		<price>12.95<price>
-	</item3>
-</items3>
-<items>
-	<item>
-		<category>Romance</category>
-		<title>Forget Me Not</title>
-		<media>DVD/Blue Ray</media>
-		<price>30.95<price>
-	</item>
-</items>	
+<movies>
+    <movie title="The End of the World" imageurl="images/disaster.png">
+    <description>
+    One of those in your face end of time movies. If you like watching people
+    run and scream going no where fast, then this is the movie for you.
+    </description>
+    </book>
+
+    <movie title="It's a Scary Movie" imageurl="images/scary.png">
+    <description>
+    This movie is pure comedy with a scare here and there. But trust me you
+    won't loose any sleep 
+    </description>
+    </book>
+
+    <movie title="Laugh Out Loud" imageurl="images/comedy2.png">
+    <description>
+    This movie was suppose to be a comedy. Personally i saw very little comedy.
+    </description>
+    </book>
+    
+    <movie title="I Spy" imageurl="images/drama8.png">
+    <description>
+    I will always love a good spy flick
+    </description>
+    </book>
+    
+    <movie title="Road Trip" imageurl="images/family_pic.png">
+    <description>
+    Now this is the good old family movie. Even great grandma would love it
+    </description>
+    </book>
+    
+    <movie title="The Big Help" imageurl="images/drama9.png">
+    <description>
+    This movie had an all star cast.  I just loved it
+    </description>
+    </book>
+    
+    
+</movies>
