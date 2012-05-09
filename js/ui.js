@@ -7,7 +7,7 @@ $(function() {
 });
 
 
-$.get('data.xml', function(d){
+$.get('xhr/data.xml', function(d){
     $('body').append('<h1> Recommended Movies to watch </h1>');
     $('body').append('<dl />');
 
