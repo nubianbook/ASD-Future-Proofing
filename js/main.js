@@ -78,6 +78,31 @@
 
      })
 
+     $('#csvBtn').bind("click", function (){
+         $.ajax({
+         url: 'xhr/data.csv',
+         type: 'GET',
+         dataType: 'text',
+         success: function(csvData){
+         console.log("CSV data: ", csvData);
+             var items = csvData.split("\n");
+             for(var j=1; j < items.length; j++){
+                 var row = items[j];
+                 var columns = row.split(",");
+                 console.log('CSV is: ', columns);
+                 $('#archive1').append($(' ' +
+                     '<ul id="csvList">' +
+                     '<li>Category: ' + columns[0] + '</li>' +
+                     '<li>Drama: ' + items[1] + '</li>' +
+                     '<li>Horror: ' + items[2] + '</li>' +
+                     '<li>Sifi: ' + items[3] + '</li> ' +
+                     '<li>Family: ' + items[4] + '</li> ' +
+                     '<li>Romance: ' + items[5] + '</li> ' +
+                     '<li>Documentary: ' + items[6] + '</li> ' + '</li></ul><br/><hr/><br/>'));
+                }
+             }
+         })
+     });
  });
 
 
