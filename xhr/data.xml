@@ -1,42 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<movies>
-    <movie title="The End of the World" imageurl="images/disaster.png">
-    <description>
-    One of those in your face end of time movies. If you like watching people
-    run and scream going no where fast, then this is the movie for you.
-    </description>
-    </book>
+<Movies>
+    <info>
+        <group>Documentary</group>
+        <movName>Show Me the Money</movName>
+        <year>02-12-1992</year>
+        <score>Five Stars</score>
+        <awards>Globe Awards</awards>
+        <country>USA</country>
+        <rating>All Ages</rating>
+        <notes>None</notes>
+    </info>
+    <info>
+        <group>Comedy</group>
+        <movName>Show Me the Money Again</movName>
+        <year>12-01-1956</year>
+        <score>Five Stars</score>
+        <awards>None</awards>
+        <country>USA</country>
+        <rating>PG</rating>
+        <notes>None</notes>
+    </info>
+    <info>
+        <group>Horror</group>
+        <movName>The One Legged Short Zombie</movName>
+        <year>04-22-1958</year>
+        <score>Two Stars</score>
+        <awards>None</awards>
+        <country>USA</country>
+        <rating>Yes</rating>
+        <notes>None</notes>
+    </info>
+    <info>
+        <group>Family</group>
+        <movName>Please No More Kids</movName>
+        <year>07-04-1988</year>
+        <score>Two Stars</score>
+        <awards>Emmy</awards>
+        <country>USA</country>
+        <rating>PG</rating>
+        <notes>None</notes>
+    </info>
+    <info>
+        <group>SiFi</group>
+        <movName>The Earthlings Win</movName>
+        <year>03-14-2002</year>
+        <score>2008-06-23</score>
+        <awards>MoonBeam</awards>
+        <country>Korean</country>
+        <rating>PG</rating>
+        <notes>None</notes>
+    </info>
 
-    <movie title="It's a Scary Movie" imageurl="images/scary.png">
-    <description>
-    This movie is pure comedy with a scare here and there. But trust me you
-    won't loose any sleep 
-    </description>
-    </book>
+</Movies>
 
-    <movie title="Laugh Out Loud" imageurl="images/comedy2.png">
-    <description>
-    This movie was suppose to be a comedy. Personally i saw very little comedy.
-    </description>
-    </book>
-    
-    <movie title="I Spy" imageurl="images/drama8.png">
-    <description>
-    I will always love a good spy flick
-    </description>
-    </book>
-    
-    <movie title="Road Trip" imageurl="images/family_pic.png">
-    <description>
-    Now this is the good old family movie. Even great grandma would love it
-    </description>
-    </book>
-    
-    <movie title="The Big Help" imageurl="images/drama9.png">
-    <description>
-    This movie had an all star cast.  I just loved it
-    </description>
-    </book>
-    
-    
-</movies>
+
