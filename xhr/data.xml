@@ -2,7 +2,7 @@
 <Movies>
     <info>
         <group>Documentary</group>
-        <movName>Show Me the Money</movName>
+        <name>Show Me the Money</name>
         <year>02-12-1992</year>
         <score>Five Stars</score>
         <awards>Globe Awards</awards>
@@ -12,7 +12,7 @@
     </info>
     <info>
         <group>Comedy</group>
-        <movName>Show Me the Money Again</movName>
+        <name>Show Me the Money Again</name>
         <year>12-01-1956</year>
         <score>Five Stars</score>
         <awards>None</awards>
@@ -22,7 +22,7 @@
     </info>
     <info>
         <group>Horror</group>
-        <movName>The One Legged Short Zombie</movName>
+        <name>The One Legged Short Zombie</name>
         <year>04-22-1958</year>
         <score>Two Stars</score>
         <awards>None</awards>
@@ -32,7 +32,7 @@
     </info>
     <info>
         <group>Family</group>
-        <movName>Please No More Kids</movName>
+        <name>Please No More Kids</name>
         <year>07-04-1988</year>
         <score>Two Stars</score>
         <awards>Emmy</awards>
@@ -42,7 +42,7 @@
     </info>
     <info>
         <group>SiFi</group>
-        <movName>The Earthlings Win</movName>
+        <name>The Earthlings Win</name>
         <year>03-14-2002</year>
         <score>2008-06-23</score>
         <awards>MoonBeam</awards>

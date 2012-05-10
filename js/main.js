@@ -14,10 +14,10 @@
                      var item = data.jsonData[i];
                      console.log(item);
                      $('#archive1').append($(' ' +
-                         '<img src="images/cta_logo.png" alt="photo" class="picDefault" />' +
+                         '<img src="images/text2_logo.png" alt="photo" class="pic_text"/>' +
                              '<ul id="jsonList">' +
                              '<li>Groups: ' + item.groups + '</li>' +
-                             '<li>Atitle: ' + item.atitle + '</li>' +
+                             '<li>Title: ' + item.title + '</li>' +
                              '<li>Watched: ' + item.watched + '</li>' +
                              '<li>Acquired: ' + item.acquired + '</li> ' +
                              '<li>Viewed: ' + item.viewed + '</li> ' +
@@ -36,6 +36,7 @@
 
  $('#infoPage').live('pageinit', function(){
      console.log("We are on the infoPage");
+     $('#archive1').empty();
 
      $('#xmlBtn').bind('click', function(){
          console.log("We're here");
@@ -48,7 +49,7 @@
                  console.log(info);
                  $(info).find("info").each(function(){
                      var group = $(this).find('group').text();
-                     var movName = $(this).find('movName').text();
+                     var name = $(this).find('name').text();
                      var year = $(this).find('year').text();
                      var score = $(this).find('score').text();
                      var awards = $(this).find('awards').text();
@@ -57,10 +58,10 @@
                      var notes = $(this).find('notes').text();
                      console.log(info);
                      $('#archive1').append($(' ' +
-                         '<img src="images/cta_logo.png" alt="photo" class="picDefault" />' +
+                         '<img src="images/text_logo.png" alt="photo" class="pic_text"" />' +
                          '<ul id="xmlList">' +
                          '<li>Group: ' + group + '</li>' +
-                         '<li>MovName: ' + movName + '</li>' +
+                         '<li>Name: ' + name + '</li>' +
                          '<li>Year: ' + year + '</li>' +
                          '<li>Score: ' + score + '</li> ' +
                          '<li>Awards: ' + awards + '</li> ' +
