@@ -1,6 +1,6 @@
  $('#infoPage').live('pageinit', function(){
     console.log("We are on the infoPage");
-
+     $('#archive1').empty();
     $('#jsonBtn').bind('click', function(){
         console.log("We're here");
 
@@ -36,7 +36,7 @@
 
  $('#infoPage').live('pageinit', function(){
      console.log("We are on the infoPage");
-
+     $('#archive1').empty();
 
      $('#xmlBtn').bind('click', function(){
          console.log("We're here");
@@ -99,6 +99,11 @@
              }
          })
      });
+     // when the tag with id="btn" is clicked
+     $('#resetBtn').click(function() {
+         // removes all LI with class="cls" in OL
+         $('#archive1').remove();
  });
 
 
+ });
