@@ -58,7 +58,7 @@
                      var notes = $(this).find('notes').text();
                      console.log(info);
                      $('#archive1').append($(' ' +
-                         '<img src="images/text_logo.png" alt="photo" class="pic_text"" />' +
+                         '<img src="images/text_logo.png" alt="photo" class="pic_text" />' +
                          '<ul id="xmlList">' +
                          '<li>Group: ' + group + '</li>' +
                          '<li>Name: ' + name + '</li>' +
@@ -92,6 +92,7 @@
                  var columns = row.split(",");
                  console.log('CSV is: ', columns);
                  $('#archive1').append($(' ' +
+                     '<img src="images/text3_logo.png" alt="photo" class="pic_text" />' +
                      '<ul id="csvList">' +
                      '<li> ' + row + '</li> ' + '</li></ul><br/><hr/><br/>'));
                 }
