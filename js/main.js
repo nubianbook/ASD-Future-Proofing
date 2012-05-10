@@ -92,13 +92,13 @@
                  console.log('CSV is: ', columns);
                  $('#archive1').append($(' ' +
                      '<ul id="csvList">' +
-                     '<li>Category: ' + columns[0] + '</li>' +
-                     '<li>Drama: ' + items[1] + '</li>' +
-                     '<li>Horror: ' + items[2] + '</li>' +
-                     '<li>Sifi: ' + items[3] + '</li> ' +
-                     '<li>Family: ' + items[4] + '</li> ' +
-                     '<li>Romance: ' + items[5] + '</li> ' +
-                     '<li>Documentary: ' + items[6] + '</li> ' + '</li></ul><br/><hr/><br/>'));
+                     '<li> ' + items[0] + '</li> ' +
+                     '<li> ' + items[1] + '</li> ' +
+                     '<li> ' + items[2] + '</li> ' +
+                     '<li> ' + items[3] + '</li> ' +
+                     '<li> ' + items[4] + '</li> ' +
+                     '<li> ' + items[5] + '</li> ' +
+                     '<li> ' + items[6] + '</li> ' + '</li></ul><br/><hr/><br/>'));
                 }
              }
          })
