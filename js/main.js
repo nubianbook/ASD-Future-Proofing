@@ -36,7 +36,7 @@
 
  $('#infoPage').live('pageinit', function(){
      console.log("We are on the infoPage");
-     $('#archive1').empty();
+
 
      $('#xmlBtn').bind('click', function(){
          console.log("We're here");
@@ -93,13 +93,7 @@
                  console.log('CSV is: ', columns);
                  $('#archive1').append($(' ' +
                      '<ul id="csvList">' +
-                     '<li> ' + items[0] + '</li> ' +
-                     '<li> ' + items[1] + '</li> ' +
-                     '<li> ' + items[2] + '</li> ' +
-                     '<li> ' + items[3] + '</li> ' +
-                     '<li> ' + items[4] + '</li> ' +
-                     '<li> ' + items[5] + '</li> ' +
-                     '<li> ' + items[6] + '</li> ' + '</li></ul><br/><hr/><br/>'));
+                     '<li> ' + row + '</li> ' + '</li></ul><br/><hr/><br/>'));
                 }
              }
          })
