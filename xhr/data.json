@@ -4,8 +4,6 @@
                 "groups": "Documentary",
                 "atitle": "Show Me the Money",
                 "watched":  "02-20-2012",
-                "checkbox1":  "Yes",
-                "checkbox2": "No",
                 "acquired": "Rented",
                 "viewed":  "Yes",
                 "watch": "Yes",
@@ -14,17 +12,73 @@
                 "notes": "One great movie"
             },
             {
-                "groups": "Documentary2",
+                "groups": "Comedy",
                 "atitle": "Show Me the Money Again",
-                "watched":  "02-20-2012",
-                "checkbox1":  "Yes",
-                "checkbox2": "No",
+                "watched":  "08-25-2011",
+                "acquired": "Rented",
+                "viewed":  "No",
+                "watch": "Yes",
+                "ratestars":  "5 stars",
+                "slider": "10",
+                "notes": "Funny movie. I laughed"
+            },
+            {
+                "groups": "Horror",
+                "atitle": "The One Legged Short Zombie",
+                "watched":  "01-o3-2012",
+                "acquired": "Rented",
+                "viewed":  "No",
+                "watch": "Yes",
+                "ratestars":  "2 stars",
+                "slider": "5",
+                "notes": "Real funny movie and stupid"
+
+            },
+            {
+                "groups": "Family",
+                "atitle": "Please No More Kids",
+                "watched":  "07-16-2011",
+                "acquired": "Rented",
+                "viewed":  "No",
+                "watch": "Yes",
+                "ratestars":  "2 stars",
+                "slider": "3",
+                "notes": "T thought it would be a good movie but no"
+            },
+            {
+                "groups": "SiFi",
+                "atitle": "The Earthlings Win",
+                "watched":  "11-22-2011",
                 "acquired": "Purchased",
-                "viewed":  "YNo",
+                "viewed":  "No",
+                "watch": "Yes",
+                "ratestars":  "5 stars",
+                "slider": "10",
+                "notes": "One great,great movie"
+            },
+            {
+                "groups": "Romance",
+                "atitle": "Last Train to Ohio ",
+                "watched":  "12-13-2011",
+                "acquired": "Purchased",
+                "viewed":  "No",
+                "watch": "Yes",
+                "ratestars":  "5 stars",
+                "slider": "10",
+                "notes": "One great,great movie"
+            },
+            {
+                "groups": "Drama",
+                "atitle": "On the High Seas",
+                "watched":  "02-22-2011",
+                "acquired": "Rented",
+                "viewed":  "No",
                 "watch": "Yes",
                 "ratestars":  "5 stars",
                 "slider": "10",
                 "notes": "One great,great movie"
             }
+
         ]
+
 }

@@ -45,10 +45,11 @@
 
 		   	<ul data-role="listview" data-filter="true">
 		      <li>
-			    <a href ="#button.html">
+			    <a href ="#infoPage">
 			      <img src="images/disaster.png" width="60px" height="104">
-			      	<h3>Movie Information</h3>
-			      	   <p>Click here to see XML, JSON, & CSV in action</p>
+			      <h3>Movie Information</h3>
+                  <p>Click here to see XML, JSON, & CSV in action</p>
+
 		        </a>
 		      </li>
 		 <!-- XML area closed -->     
@@ -152,7 +153,7 @@
 		<div data-role="content">
 			<form method="post" enctype="text/plain" id="myform" name="f1" action="#" align="center">
 				<p>				
-				   <input type="search" id="search" value="Quick Search Here" name="search" size="40" maxlength="40" /> 
+				   <input type="search" id="search" value="Quick Search Here" name="search" size="40" maxlength="40" />
 				</p>
 			</form> 
 			<h2>List Inlay</h2>
@@ -213,7 +214,7 @@
 	
 	<!-- XML page construction -->
 	
-	<div data-role="page" id="button.html" data-add-back-btn="true">
+	<div data-role="page" id="infoPage" data-add-back-btn="true">
 	
 		<div data-role="header" data-position="fixed" data-add-back-btn="true">
 			<h1>XML Construction</h1>
@@ -222,18 +223,17 @@
 		<div data-role="content">
 			<br />
 			<h1 align="center">
-                   <p>click to see XML in action</p>
-			           <a href="data.html"  data-ajax="false"><button id="xmlBtn">XML</button></a>
-                   <p>click to see JSON in action</p>
-                       <a href="data1.html"  data-ajax="false"><button id="jsonBtn">JSON</button></a>
-                   <p>click to see CSV in action</p>
-                       <a href="data2.html"  data-ajax="false"><button id="csvBtn">CSV</button></a>
+               <p>click to see XML in action</p>
+               <a href="data.html"  data-ajax="false"><button id="xmlBtn">XML</button></a>
+               <a href="#" data-role="button" data-icon="arrow-r" data-theme="a" data-iconpos="right" id="jsonBtn">Load JSON Data</a>
+               <p>click to see CSV in action</p>
+               <a href="data2.html"  data-ajax="false"><button id="csvBtn">CSV</button></a>
 		    </h1>
 
 		 <br />
 		 <br /> 
 		 </div>
-		
+        <div id="archive1"></div>
 			
 		<div data-role="footer" data-position="fixed">
 			<h4>Footer</h4>
