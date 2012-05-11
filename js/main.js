@@ -99,11 +99,10 @@
              }
          })
      });
-     // when the tag with id="btn" is clicked
-     $('#resetBtn').click(function() {
-         // removes all LI with class="cls" in OL
-         $('#archive1').remove();
- });
 
+ });
+     // when the tag with id="resetBtn" is clicked
+     $('#resetBtn').click(function() {
+         $('#archive1').remove();
 
  });
